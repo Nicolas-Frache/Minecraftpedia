@@ -56,7 +56,7 @@
 
 #zone-titre {
  -background-color:rgb(150, 7, 7) !important;
- background-image: url("https://cdn-s-www.leprogres.fr/images/982953C8-5BFF-432B-813A-3EB902286E2A/NW_raw/capture-d-ecran-1446570191.jpg");
+ background-image: url("../assets/img/fondAccueil.jpg");
 }
 
 html {
@@ -4341,7 +4341,22 @@ input[type=button].btn-block {
   margin : 1.2rem !important;
   max-width : 27%;
   min-width: 15rem;
+  background-color: rgba(255, 255, 255, 0.61);
 }
+
+.card-animaux:hover{
+  background-color: rgba(104, 207, 185, 0.342);
+  
+}
+
+#animaux{
+background-image: url("../assets/img/fonds/dirt.png");
+}
+
+#monstres{
+  background-image: url("../assets/img/fonds/stone.png");
+}
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -10016,6 +10031,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .divider-custom .divider-custom-line {
   width: 100%;
@@ -10138,6 +10154,13 @@ h3 {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  -background-color: #007bff;
+
+  background: -moz-linear-gradient(-45deg,  rgba(248,80,50,0.89) 0%, rgba(237,229,92,0.86) 18%, rgba(53,239,11,0.83) 34%, rgba(11,226,219,0.78) 58%, rgba(23,45,237,0.74) 81%, rgba(221,23,232,0.7) 100%);
+  background: -webkit-linear-gradient(-45deg,  rgba(248,80,50,0.89) 0%,rgba(237,229,92,0.86) 18%,rgba(53,239,11,0.83) 34%,rgba(11,226,219,0.78) 58%,rgba(23,45,237,0.74) 81%,rgba(221,23,232,0.7) 100%);
+  background: linear-gradient(135deg,  rgba(248,80,50,0.89) 0%,rgba(237,229,92,0.86) 18%,rgba(53,239,11,0.83) 34%,rgba(11,226,219,0.78) 58%,rgba(23,45,237,0.74) 81%,rgba(221,23,232,0.7) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3f85032', endColorstr='#b3dd17e8',GradientType=1 );
+
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
