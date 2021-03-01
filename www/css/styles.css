@@ -7451,6 +7451,14 @@ button.bg-dark:focus {
   width: 50% !important;
 }
 
+.w-48 {
+  width: 48% !important;
+}
+
+.w-45 {
+  width: 45% !important;
+}
+
 .w-75 {
   width: 75% !important;
 }
@@ -10283,4 +10291,8 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.flex-jc-around {
+  justify-content: space-around;
 }
