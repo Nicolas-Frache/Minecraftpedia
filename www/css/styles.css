@@ -54,6 +54,14 @@
 }
 
 
+#video{
+  background: #46948d;
+}
+
+.panel-group p {
+  font-size: 15px;
+}
+
 #zone-titre {
  -background-color:rgb(150, 7, 7) !important;
  background-image: url("../assets/img/fondAccueil.jpg");
@@ -4347,14 +4355,25 @@ input[type=button].btn-block {
 
 .card-animaux:hover{
   background-color: rgba(104, 207, 185, 0.342);
-  
 }
 
 #animaux{
 background-image: url("../assets/img/fonds/dirt.png");
 }
 
+#video{
+  -background-color: rgba(104, 207, 185, 0.342);
+}
+
 #monstres{
+  background-image: url("../assets/img/fonds/stone.png");
+}
+
+#nether{
+  background-image: url("../assets/img/fonds/stone.png");
+}
+
+#ender{
   background-image: url("../assets/img/fonds/stone.png");
 }
 

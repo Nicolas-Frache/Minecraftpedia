@@ -198,6 +198,46 @@
         </section>
 
 
+        <!-- Videos-->
+        <section class="page-section portfolio" id="video">
+            
+                            <div class='ripple-background'>
+                                <div class='circle xxlarge shade1'></div>
+                                <div class='circle xlarge shade2'></div>
+                                <div class='circle large shade3'></div>
+                                <div class='circle mediun shade4'></div>
+                                <div class='circle small shade5'></div>
+                              </div>
+            <div class="container">
+
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-primary mb-0">Video</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Monstre Grid Items-->
+                <div class="row justify-content-center">
+
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MmB9b5njVbA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  
+             <!--
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vwPRELEMc_o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            -->
+
+               
+            </div>
+        </section>
+
+
+
+
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
         <!-- Mondes Section-->
         <section class="page-section" id="mondes">
             <div class="container">
@@ -237,18 +277,20 @@
                 </div>
 
                 <!-- Details Mondes -->
-                <div class="flex-jc-around d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+                <div class="flex-jc-around d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 ">
                     <!-- Nether -->
-                    <div class="w-48 bg-dark me-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center text-white overflow-hidden">
+                    <div class="m-3 w-95 w-md-48 bg-dark me-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center text-white overflow-hidden" id="nether">
                         <h3>Nether</h3>
                         <!-- Accordeon -->
                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default">
                               <div class="panel-heading" role="tab" id="headingOne">
                                 <h6 class="panel-title">
-                                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                  <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+
+                                    
                                     Créatures
-                                  </a>
+                                  </button>
                                 </h6>
                               </div>
                               <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
@@ -268,9 +310,9 @@
                             <div class="panel panel-default">
                               <div class="panel-heading" role="tab" id="headingTwo">
                                 <h6 class="panel-title">
-                                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     Biomes
-                                  </a>
+                                  </button>
                                 </h6>
                               </div>
                               <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -291,15 +333,15 @@
                     </div>
 
                     <!-- Ender -->
-                    <div class="w-48 bg-dark me-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center text-white overflow-hidden">
+                    <div class="m-3 w-95 w-md-48 bg-dark me-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center text-white overflow-hidden" id="ender">
                         <h3>Ender</h3>
                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default">
                               <div class="panel-heading" role="tab" id="headingThree">
                                 <h6 class="panel-title">
-                                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapsethree">
+                                    <button class="btn btn-secondary collapsed" type="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapsethree">
                                     Créatures
-                                  </a>
+                                  </button>
                                 </h6>
                               </div>
                               <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -328,7 +370,7 @@
                 <div class="row">
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Authors</h4>
+                        <h4 class="text-uppercase mb-4">Auteurs</h4>
                         <p class="lead mb-0">
                             Le Nalinec Léopold
                             <br />
@@ -348,8 +390,6 @@
                         <h4 class="text-uppercase mb-4">A propos de Minecraftpedia</h4>
                         <p class="lead mb-0">
                             Minecraftpedia est une base de données libre, qui se base sur le monde merveilleux de Minecraft.
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
                         </p>
                     </div>
                 </div>
@@ -357,7 +397,7 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © Your Website 2020</small></div>
+            <div class="container"><small>Copyright © Your Website 2021</small></div>
         </div>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">
@@ -570,9 +610,10 @@
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Contact form JS-->
         <script src="assets/mail/jqBootstrapValidation.js"></script>
         <script src="assets/mail/contact_me.js"></script>
